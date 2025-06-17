@@ -1,0 +1,20 @@
+{
+  "name": "apartment-searcher",
+  "version": "1.0.0",
+  "description": "Telegram bot to find apartments to buy from market places",
+  "main": "dist/bot.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/bot.ts",
+    "build": "tsc",
+    "start": "node dist/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
